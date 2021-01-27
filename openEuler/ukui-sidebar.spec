@@ -26,8 +26,6 @@ Requires: qt5-qttools-devel
 Requires: gsettings-qt-devel
 Requires: dconf-devel
 
-#patch0:  fix-plugin-icon.patch
-
 %description
  The ukui-sidebar is mainly used in the desktop operating system.
  It pops up from the right side of the desktop in the form of a tray,
@@ -36,7 +34,6 @@ Requires: dconf-devel
 
 %prep
 %setup -q
-#%%patch0 -p1
 
 %build
 mkdir build && cd build
