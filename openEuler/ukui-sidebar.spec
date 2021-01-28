@@ -15,8 +15,14 @@ BuildRequires: qt5-qttools-devel
 BuildRequires: gsettings-qt-devel
 BuildRequires: dconf-devel
 BuildRequires: libX11-devel
-BuildRequires: kf5-kwindowsystem-devel
+BuildRequires: qt5-qtx11extras-devel
 BuildRequires: libXtst-devel
+BuildRequires: libXrandr-devel
+BuildRequires: libXinerama-devel
+BuildRequires: libXcursor-devel
+BuildRequires: kf5-kwindowsystem-devel
+BuildRequires: qt5-qtx11extras-devel
+BuildRequires: pkgconf
 
 Requires: glib2-devel
 Requires: qt5-qtbase-devel
